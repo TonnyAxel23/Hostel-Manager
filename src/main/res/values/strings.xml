@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Hostel Manager</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="tenants">Tenants</string>
+    <string name="payments">Payments</string>
+    <string name="add_tenant">Add Tenant</string>
+    <string name="export_excel">Export Excel</string>
+    <string name="record_payment">Record Payment</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="search">Search tenants...</string>
+</resources>

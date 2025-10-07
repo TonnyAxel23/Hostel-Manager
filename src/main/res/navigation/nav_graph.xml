@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/navigation_dashboard">
+
+    <fragment
+        android:id="@+id/navigation_dashboard"
+        android:name="com.example.hostelmanager.DashboardFragment"
+        android:label="Dashboard"
+        tools:layout="@layout/fragment_dashboard" />
+
+    <fragment
+        android:id="@+id/navigation_tenants"
+        android:name="com.example.hostelmanager.TenantsFragment"
+        android:label="Tenants"
+        tools:layout="@layout/fragment_tenants" />
+
+    <fragment
+        android:id="@+id/navigation_payments"
+        android:name="com.example.hostelmanager.PaymentsFragment"
+        android:label="Payments"
+        tools:layout="@layout/fragment_payments" />
+
+    <fragment
+        android:id="@+id/addTenantFragment"
+        android:name="com.example.hostelmanager.AddTenantFragment"
+        android:label="Add Tenant" />
+
+</navigation>
